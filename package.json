@@ -1,0 +1,49 @@
+{
+  "name": "movies-explorer-api",
+  "version": "0.0.1",
+  "description": "backend site movies",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "dev": "nodemon ./app.js",
+    "lint": "npx eslint ./",
+    "lint fix": "npx eslint ./ --fix",
+    "depcheck": "npx depcheck ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitka27/movies-explorer-api.git"
+  },
+  "keywords": [
+    "backend",
+    "site",
+    "movies"
+  ],
+  "author": "vitalii katsibin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitka27/movies-explorer-api/issues"
+  },
+  "homepage": "https://github.com/vitka27/movies-explorer-api#readme",
+  "devDependencies": {
+    "eslint": "^8.49.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "celebrate": "^15.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.11.2",
+    "express-winston": "^4.2.0",
+    "helmet": "^7.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.0",
+    "validator": "^13.11.0",
+    "winston": "^3.10.0"
+  }
+}
